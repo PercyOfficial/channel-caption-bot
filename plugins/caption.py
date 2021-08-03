@@ -6,10 +6,10 @@ from pyrogram.errors import FloodWait
 
 @Client.on_message(filters.document & filters.channel)
 async def caption(client, message: Message):
-    await message.edit("Your caption here",
+    await message.edit("@KdramaSearch_bot #Kdrama Uploaded By @Percy_jackson_4",
           reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Button Name", url="https://t.me/JEBotZ")]
+                [InlineKeyboardButton("Cortana Updates", url="https://t.me/Cortana_BOTS")]
             ]
                                            )
                       )
